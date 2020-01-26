@@ -31,4 +31,3 @@ DS_Store
 /serverless/node_modules/*
 /data/*
 /models/*
-/notebooks/*
