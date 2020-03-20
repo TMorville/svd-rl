@@ -8,8 +8,8 @@ from __future__ import print_function
 import numpy as np
 from scipy.stats import invgamma
 
-from linear_bandit.bandit_algorithm import BanditAlgorithm
-from linear_bandit.contextual_dataset import ContextualDataset
+from src.bandit_algorithm import BanditAlgorithm
+from src.contextual_dataset import ContextualDataset
 
 class LinearFullPosteriorSampling(BanditAlgorithm):
     """Thompson Sampling with independent linear models and unknown noise var."""

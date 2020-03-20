@@ -22,9 +22,9 @@ from __future__ import print_function
 import numpy as np
 from scipy.stats import invgamma
 
-from linear_bandit.bandit_algorithm import BanditAlgorithm
-from linear_bandit.contextual_dataset import ContextualDataset
-from linear_bandit.neural_bandit_model import NeuralBanditModel
+from src.bandit_algorithm import BanditAlgorithm
+from src.contextual_dataset import ContextualDataset
+from src.neural_bandit_model import NeuralBanditModel
 
 
 class NeuralLinearPosteriorSampling(BanditAlgorithm):

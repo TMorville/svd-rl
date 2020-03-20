@@ -26,7 +26,7 @@ from __future__ import print_function
 import tensorflow as tf
 
 from absl import flags
-from linear_bandit.bayesian_nn import BayesianNN
+from src.bayesian_nn import BayesianNN
 
 FLAGS = flags.FLAGS
 
