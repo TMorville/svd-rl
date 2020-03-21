@@ -31,3 +31,6 @@ DS_Store
 /serverless/node_modules/*
 /data/*
 /models/*
+
+# Files
+/notebooks/funk_svd_tmp.ipynb
